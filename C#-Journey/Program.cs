@@ -116,5 +116,22 @@
         // {
         //     Console.WriteLine("Access Denied");
         // }
+
+
+        // Memanggil Static Void Method
+        // SayHi("Lumi");
+        // Hitung(2, 3);
+
     }
+
+    // 11.Static Void Method
+    // static void SayHi(string name)
+    // {
+    //     Console.WriteLine("Hai {0}", name);
+    // }
+
+    // static void Hitung(int a, int b)
+    // {
+    //     Console.WriteLine(a + b);
+    // }
 }
