@@ -91,5 +91,11 @@
         //     x++;
         // }
         // while (x <= 5);
+
+        // 9.For Loop
+        // for (int i = 0; i < 5; i++)
+        // {
+        //     Console.WriteLine(i);
+        // }
     }
 }
