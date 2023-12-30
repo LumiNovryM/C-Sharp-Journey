@@ -97,5 +97,24 @@
         // {
         //     Console.WriteLine(i);
         // }
+
+        // 10.Logical Operator
+        // && AND
+        // || OR
+        // ! NOT
+
+        // Console.WriteLine("Input Your Username & Password To Login!");
+
+        // string password = Console.ReadLine();
+        // string username = Console.ReadLine();
+
+        // if(password == "123" && username == "Lumi")
+        // {
+        //     Console.WriteLine("Access Granted");
+        // }
+        // else
+        // {
+        //     Console.WriteLine("Access Denied");
+        // }
     }
 }
