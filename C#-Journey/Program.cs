@@ -139,11 +139,21 @@
         // Print(18);
         // Print(3.14);
 
+        // 14. Array
         // int[] myArr = { 1, 2, 3 };
         // foreach (int item in myArr)
         // {
         //     Console.Write(item);
         // }
+
+        // 15.Array MultiDimension
+        // int[,] myArr =
+        // {
+        //     { 1, 2, 3 }, 
+        //     { 4, 5, 6 },
+        // };
+
+
     }
 
     // 11.Static Void Method
