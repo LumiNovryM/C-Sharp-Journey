@@ -2,8 +2,8 @@
 internal class Manusia
 {
     // Deklarasi Property Pada Sebuah Class
-    int umur;
-    string nama;
+    public int umur;
+    public string nama;
 
     public void SayHi()
     {
@@ -19,5 +19,9 @@ internal class User
         // Instance New Object
         Manusia Lumi = new Manusia();
         Lumi.SayHi();
+        Lumi.nama = "Lumi Novry Meckel";
+        Lumi.umur = 18;
+
+        Console.WriteLine(Lumi.nama);
     }
 }
