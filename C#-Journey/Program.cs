@@ -34,5 +34,17 @@
         // Console.WriteLine("Hasil Perkalian : {0}", firstNum * secondNum);
         // Console.WriteLine("Hasil Pembagian : {0}", Convert.ToDouble(firstNum) / Convert.ToDouble(secondNum));
         // Console.WriteLine("Hasil Modulus : {0}", firstNum % secondNum);
+
+
+        // 4.If Else Statement
+        // string name = "Lumi Novry Meckel";
+        // if(name == "Lumi Novry Meckel")
+        // {
+        //     Console.WriteLine("Hai {0}", name);
+        // }
+        // else
+        // {
+        //    Console.WriteLine("Hai");
+        // }
     }
 }
