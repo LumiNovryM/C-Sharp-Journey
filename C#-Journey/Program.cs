@@ -46,5 +46,17 @@
         // {
         //    Console.WriteLine("Hai");
         // }
+
+        // 5.Increment & Decrement
+        // int increment = 15;
+        // int decrement = 15;
+        // increment++; // Increment, yaitu menambah satu angka
+        // decrement--; // Decrement, yaitu mengurang satu angka
+
+        // dynamic test = ++increment;
+        // Console.WriteLine(test);
+
+        // Console.WriteLine(increment);
+        // Console.WriteLine(decrement);
     }
 }
