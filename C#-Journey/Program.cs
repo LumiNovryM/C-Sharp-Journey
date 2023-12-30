@@ -133,6 +133,11 @@
         // string myName;
         // PrintName(out myName);
         // Console.WriteLine(myName);
+
+
+        // Memanggil Method Overloading
+        // Print(18);
+        // Print(3.14);
     }
 
     // 11.Static Void Method
@@ -161,5 +166,16 @@
     // static void PrintName(out string name)
     // {
     //     name = "Lumi Novry Meckel";
+    // }
+
+    // 13.Method Overloading
+    // static void Print(int age)
+    // {
+    //     Console.WriteLine("Print Int: {0}", age);
+    // }
+
+    // static void Print(double phi)
+    // {
+    //     Console.WriteLine("Print Double: {0}", phi);
     // }
 }
