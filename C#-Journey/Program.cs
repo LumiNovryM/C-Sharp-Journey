@@ -60,18 +60,27 @@
         // Console.WriteLine(decrement);
 
         // 6.Switch Case Statement
-        int age = 18;
-        switch (age)
-        {
-            case 18:
-                Console.WriteLine("Anda Boleh Masuk Ke Ruangan Ini");
-                break;
-            case 17:
-                Console.WriteLine("Anda Tidak Boleh Masuk Ke Ruangan Ini");
-                break; 
-            default:
-                Console.WriteLine("Tidak Boleh Masuk");
-                break;
-        }
+        // int age = 18;
+        // switch (age)
+        // {
+        //     case 18:
+        //         Console.WriteLine("Anda Boleh Masuk Ke Ruangan Ini");
+        //         break;
+        //     case 17:
+        //         Console.WriteLine("Anda Tidak Boleh Masuk Ke Ruangan Ini");
+        //         break; 
+        //     default:
+        //         Console.WriteLine("Tidak Boleh Masuk");
+        //         break;
+        // }
+
+        // 7.While Loop
+        // int x = 10;
+
+        // while (x <= 15)
+        // {
+        //     Console.WriteLine(x);
+        //     x++;
+        // }
     }
 }
