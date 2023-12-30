@@ -138,6 +138,12 @@
         // Memanggil Method Overloading
         // Print(18);
         // Print(3.14);
+
+        // int[] myArr = { 1, 2, 3 };
+        // foreach (int item in myArr)
+        // {
+        //     Console.Write(item);
+        // }
     }
 
     // 11.Static Void Method
