@@ -24,15 +24,15 @@
         // Console.WriteLine("Lumi: Nice To Meet You, {0}", userName);
 
         // 3.Aritmatika
-        Console.WriteLine("Masukkan Angka Ke 1 : ");
-        int firstNum = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Masukkang Angka Ke 2 : ");
-        int secondNum = Convert.ToInt32(Console.ReadLine());
-   
-        Console.WriteLine("Hasil Penjumlahan : {0}", firstNum+secondNum);
-        Console.WriteLine("Hasil Pengurangan : {0}", firstNum-secondNum);
-        Console.WriteLine("Hasil Perkalian : {0}",firstNum*secondNum);
-        Console.WriteLine("Hasil Pembagian : {0}", Convert.ToDouble(firstNum) / Convert.ToDouble(secondNum));
-        Console.WriteLine("Hasil Modulus : {0}", firstNum%secondNum);
+        // Console.WriteLine("Masukkan Angka Ke 1 : ");
+        // int firstNum = Convert.ToInt32(Console.ReadLine());
+        // Console.WriteLine("Masukkang Angka Ke 2 : ");
+        // int secondNum = Convert.ToInt32(Console.ReadLine());
+
+        // Console.WriteLine("Hasil Penjumlahan : {0}", firstNum + secondNum);
+        // Console.WriteLine("Hasil Pengurangan : {0}", firstNum - secondNum);
+        // Console.WriteLine("Hasil Perkalian : {0}", firstNum * secondNum);
+        // Console.WriteLine("Hasil Pembagian : {0}", Convert.ToDouble(firstNum) / Convert.ToDouble(secondNum));
+        // Console.WriteLine("Hasil Modulus : {0}", firstNum % secondNum);
     }
 }
