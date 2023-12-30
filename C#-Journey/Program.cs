@@ -82,5 +82,14 @@
         //     Console.WriteLine(x);
         //     x++;
         // }
+
+        // 8.Do While
+        // int x = 1;
+        // do
+        // {
+        //     Console.WriteLine(x);
+        //     x++;
+        // }
+        // while (x <= 5);
     }
 }
