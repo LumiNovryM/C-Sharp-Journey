@@ -122,6 +122,17 @@
         // SayHi("Lumi");
         // Hitung(2, 3);
 
+        // Memanggil Method Tanpa Default Value Pada Argument
+        // int persegi = Luas();
+        // Memanggil Method Dengan Default Value Pada Argument
+        // int persegiPanjang = Luas(p:2, l:2);
+
+        // int refArgs = 12;
+        // Hitung(ref refArgs);
+
+        // string myName;
+        // PrintName(out myName);
+        // Console.WriteLine(myName);
     }
 
     // 11.Static Void Method
@@ -133,5 +144,22 @@
     // static void Hitung(int a, int b)
     // {
     //     Console.WriteLine(a + b);
+    // }
+
+    // 12.Method Arguments
+    // Memberi Method Default
+    // static int Luas(int p = 2, int l = 2)
+    // {
+    //     return p * l;
+    // }
+
+    // static void Hitung(ref int a)
+    // {
+    //     Console.WriteLine(a);
+    // }
+
+    // static void PrintName(out string name)
+    // {
+    //     name = "Lumi Novry Meckel";
     // }
 }
