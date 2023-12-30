@@ -153,6 +153,9 @@
         //     { 4, 5, 6 },
         // };
 
+        // 16.String Array
+        // string stringArray = "Lumi";
+        // Pada C# sebuah variable yang dideklarasi dengan kumpulan character unicode adalah Array
 
     }
 
