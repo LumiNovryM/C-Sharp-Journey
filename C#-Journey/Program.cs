@@ -11,6 +11,7 @@ internal class Manusia
 
     public string createdAt = "12/31/2023";
 
+
     public void SayHi()
     {
         System.Console.WriteLine("Halo, Apa Kabar!");
@@ -18,9 +19,9 @@ internal class Manusia
 
 }
 
-internal class User
+internal class User : Manusia
 {
-    static void Main(string[] args)
+    static void Instance(string[] args)
     {
         // Instance New Object
         Manusia Lumi = new Manusia();
@@ -34,10 +35,43 @@ internal class User
 
 class Testing
 {
-    static void Main(string[] args)
+    static void Test(string[] args)
     {
         // Testing
         Manusia Testing = new Manusia();
         Console.WriteLine(Testing.createdAt);
+    }
+}
+
+
+class Mobil
+{
+    public string Merek { get; set; }
+    public int TahunProduksi { get; set; }
+
+    // Class Constructor With Parameter
+    public Mobil(string merek, int tahunProduksi)
+    {
+        Merek = merek;
+        TahunProduksi = tahunProduksi;
+    }
+
+    public void TampilkanInfo()
+    {
+        Console.WriteLine($"Mobil {Merek} diproduksi pada tahun {TahunProduksi}");
+    }
+}
+
+
+class Supra
+{
+    static void Main()
+
+    {
+        // Membuat object instance dari Class Mobil menggunakan constructor
+        Mobil Supra = new Mobil("Supra GTR", 2005);
+
+        // Memanggil method untuk menampilkan informasi mobil
+        Supra.TampilkanInfo();
     }
 }
